@@ -262,7 +262,7 @@ Every content model in Zesty \(single page, page groups or datasets\) can access
 
 ## getImage\(width, height, type\)
 
-The `getImage()` function takes optional arguments for width, height, and type \(`fit` or `crop`\) and returns a URL to that image. Fit is the default and does not need to be explicitly declared. Crop type requires all 3 arguments declared. Fit is similar to the css style "contain" and crop is similar to the css style "cover".
+The `getImage()` function takes optional arguments for width (px), height (px), and type \(`fit` or `crop`\) and returns a URL to that image. Fit is the default and does not need to be explicitly declared. Crop type requires all 3 arguments declared. Fit is similar to the css style "contain" and crop is similar to the css style "cover".
 
 ```text
 <img src="{{ page.photo.getImage() }}" />
