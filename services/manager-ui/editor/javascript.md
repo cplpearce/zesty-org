@@ -9,7 +9,7 @@ description: >-
 
 ## Overview
 
-Zesty.io provides a few ways to add JavaScript to your sites. Most are managed from the Editor underneath the JavaScript file list, otherwise JavaScript can be added to HTML views with script tags. When adding JavaScript to the JavaScript file section you can either choose to create an internal file or link to an external JavaScript file. Scripts are concatenated and uglified without [Parsley](https://zesty.org/services/web-engine/introduction-to-parsley). Parsley is not accessible files in the Script section.
+Zesty.io provides a few ways to add JavaScript to your sites. Most are managed from the Editor underneath the JavaScript file list, otherwise JavaScript can be added to HTML views with script tags. When adding JavaScript to the JavaScript file section you can either choose to create an internal file or link to an external JavaScript file. Scripts are concatenated and uglified without [Parsley](https://zesty.org/services/web-engine/introduction-to-parsley). Parsley is not accessible to files in the Script section.
 
 ## Internal JavaScript Files
 
